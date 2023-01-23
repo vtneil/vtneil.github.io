@@ -9,5 +9,12 @@ h1 {
 }
 
 h2 {
-    text-decoration: underline;
+    font-style: italic;
+}
+
+.center_graph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
