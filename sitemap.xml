@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://vtneil.com/</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/courses/comp101.html</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/lect.html</loc>
+  <lastmod>2023-01-23T15:18:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20DISCRETE%20STRUCT%20MATH%20P1.pdf</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20DISCRETE%20STRUCT%20MATH%20P2.pdf</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20DIG%20LOGIC%20P1.pdf</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20DIG%20LOGIC%20P2.pdf</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20CALCULUS%20III%20REVIEW%20CALC%20II.pdf</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20CALCULUS%20III%20P1.pdf</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20CALCULUS%20III%20P2.pdf</loc>
+  <lastmod>2023-01-23T15:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/2565%20STAT%20PHYS%20SCI.pdf</loc>
+  <lastmod>2023-01-23T15:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/Cal%202%20Lect%20Partial%20and%20Diff%20Eq.pdf</loc>
+  <lastmod>2023-01-23T15:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://vtneil.com/lect_notes/files/GEN%20PHYS%20II%20FINAL%20LECT.pdf</loc>
+  <lastmod>2023-01-23T15:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
