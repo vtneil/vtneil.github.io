@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <title>Beta Distribution Curve in Suitability Equation with Curve Bounding</title>
+</head>
+<body>
+<h1>Beta Distribution Curve in Suitability Equation with Curve Bounding</h1>
+
+<h2>Introduction</h2>
+<p style="text-align:justify">
+    การสร้างฟังก์ชัน Beta Distribution ที่ขึ้นกับตัวแปรที่นอกเหนือจาก alpha และ
+    beta สามารถทำได้โดยการนำตัวแปรที่เราต้องการให้เป็น parameter (ทำเป็นตัวแปรควบคุม) และ
+    variable (ทำเป็นตัวแปรต้น) มาจัดรูปเพื่อแทนค่าเข้าไปใน parameter เดิม ให้เป็นฟังก์ชันใหม่
+    ในที่นี้คือการสร้างฟังก์ชันหาค่าความเหมาะสม \(S\) เมื่อเปรียบเทียบค่า หรือค่าตัวแทนของชุดข้อมูลที่เก็บมาได้
+    เทียบกับค่าที่เหมาะสมหรือดีที่สุดค่าหนึ่ง ซึ่งข้อจำกัดของช่วง (constraint) ที่ต้องการกำหนดคือ ค่าที่ดีที่สุด
+    ค่าต่ำสุดของช่วงที่เลวที่สุด (minimum, \(m\)) ค่าสูงสุดของช่วงที่เลวที่สุด (maximum, \(M\))
+    และส่วนเบี่ยงเบนมาตรฐาน (standard deviation) ทั้งหมดเป็น fixed parameter ส่วน variable
+    คือค่าของข้อมูล หรือตัวแทนของชุดข้อมูลที่เก็บมาได้
+</p>
+<h2>Files</h2>
+<a href="files/2563-beta-dist.pdf">Download PDF Full Reading</a>
+<br>
+<br>
+<button onclick="window.location.href='../index.html'">Home</button>
+<button onclick="history.back()">Go Back</button>
+
+</body>
+</html>
