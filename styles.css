@@ -23,6 +23,10 @@ h2 {
     font-style: oblique;
 }
 
+h2::before {
+    content: "• ";
+}
+
 a {
     font-style: italic;
 }
@@ -34,7 +38,7 @@ hr {
 zero-md {
     margin: auto;
     display: block;
-    width: clamp(60%, 800px, 100%);
+    width: clamp(50%, 800px, 80%);
     border: 2px solid #A0A0A0A0;
     border-radius: 20px;
     padding: 32px;
