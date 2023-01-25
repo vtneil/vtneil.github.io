@@ -8,6 +8,11 @@ table, th, td {
     padding: 5px;
 }
 
+table {
+    width: clamp(50%, 300px, 100%);
+    text-align: center;
+}
+
 h1 {
     text-align: left;
 }
@@ -16,9 +21,17 @@ h2 {
     font-style: oblique;
 }
 
+a {
+    font-style: italic;
+}
+
+hr {
+    border-width: 2px;
+}
+
 .center_graph {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: min(600px, 100%)
 }
