@@ -1,5 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    margin-left: clamp(0%, 200px, 10%);
+    margin-right: clamp(0%, 200px, 10%);
 }
 
 table, th, td {
@@ -27,6 +29,15 @@ a {
 
 hr {
     border-width: 2px;
+}
+
+zero-md {
+    margin: auto;
+    display: block;
+    width: clamp(60%, 800px, 100%);
+    border: 2px solid #A0A0A0A0;
+    border-radius: 20px;
+    padding: 32px;
 }
 
 .center_graph {
