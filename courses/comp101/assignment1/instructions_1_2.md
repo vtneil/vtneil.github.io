@@ -10,21 +10,29 @@ def add(a, b):
 
 2. What do you think is the output?
 ```python
+s = add(10, 30)
+print(s)
+```
+
+3. What do you think is the output?
+```python
 print( add(10, 30) )
 ```
 
-## Example
-
-```text
-[Python Console]
-
-Enter your height in meters: 1.87
-Enter your weight in kg: 60.9
-Your BMI is: 17.42
+4. What do you think is the output?
+```python
+print( add(10, add(20, 30) ) )
 ```
 
-## Tips
+5. What do you think this piece of code do?
+```python
+def prod(*args):
+    result = 1
+    for number in args:
+        result = result * number
+    return result
+```
 
-1. Whitespace shown in the quote is important! Write carefully.
-
-2. Use the appropriate data type for input and output.
+6. In 5., When you write `result = result * number`, is `result` on the LHS the same with on the RHS?
+* LHS = left hand side
+* RHS = right hand side

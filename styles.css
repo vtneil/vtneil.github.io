@@ -4,6 +4,16 @@ body {
     margin-right: clamp(0%, 200px, 10%);
 }
 
+header {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -11,7 +21,7 @@ table, th, td {
 }
 
 table {
-    width: clamp(50%, 300px, 100%);
+    width: clamp(50%, 600px, 100%);
     text-align: center;
 }
 
@@ -32,14 +42,14 @@ a {
 }
 
 hr {
-    border-width: 2px;
+    border: 1px solid #B0B0B0;
 }
 
 zero-md {
     margin: auto;
     display: block;
     width: clamp(50%, 800px, 80%);
-    border: 2px solid #A0A0A0A0;
+    border: 2px solid #B0B0B0;
     border-radius: 20px;
     padding: 32px;
 }
