@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap&subset=latin');
+
+strong {
+    font-weight: 700;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
     margin-left: clamp(0%, 200px, 10%);
     margin-right: clamp(0%, 200px, 10%);
 }
@@ -26,10 +33,12 @@ table {
 }
 
 h1 {
+    font-weight: 900;
     text-align: left;
 }
 
 h2 {
+    font-weight: 700;
     font-style: oblique;
 }
 
@@ -39,6 +48,26 @@ h2::before {
 
 a {
     font-style: italic;
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 hr {
