@@ -1,4 +1,4 @@
-# Assignment 2.1: Strings, Lists & Functions
+# Assignment 2: Strings, Lists & Functions
 
 ## Tasks
 
@@ -18,7 +18,11 @@ See examples for more details.
 '1,2,3,4,5,,' -> ['1', '2', '3', '4', '5', '', '']
 ```
 
-Hint: See `.split(...)`
+<details>
+    <summary>Show Hint</summary>
+
+    See .split(...)
+</details>
 
 <hr>
 
@@ -59,11 +63,37 @@ c = ['Som', 'Wang', 'Coke', 'James']
 f3(s, c) -> James58Coke58Wang58Som
 ```
 
-Hint: See `.join(...)`
+<details>
+    <summary>Show Hint</summary>
+
+    See .join(...)
+</details>
 
 <hr>
 
-### Task 4
+### Task 4: Conversion
+
+Write a function that takes two **integers** `a`, `b` as inputs. 
+The function returns a digit-concatenated integers.
+
+```python
+# Example 1
+n1 = 59
+n2 = 2678
+
+f4(n1, n2) -> 592678  # in integer, not string
+```
+
+<details>
+    <summary>Show Hint</summary>
+
+    See str(...) and int(...)
+</details>
+
+
+<hr>
+
+### Task 5: *n*-Tuple
 
 A tuple is an immutable data type in Python, it works almost like the list, 
 but you can't add or remove elements from it. 
