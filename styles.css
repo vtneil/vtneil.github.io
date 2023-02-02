@@ -28,7 +28,7 @@ table, th, td {
 }
 
 table {
-    width: clamp(50%, 600px, 100%);
+    width: clamp(50%, 800px, 100%);
     text-align: center;
 }
 
@@ -47,6 +47,7 @@ h2::before {
 }
 
 a {
+    font-weight: 700;
     font-style: italic;
 }
 
