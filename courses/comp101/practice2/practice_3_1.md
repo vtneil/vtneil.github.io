@@ -1,4 +1,4 @@
-# Practice Problems for Week 2-3: Strings and Lists
+# Practice Problems for Week 2-3: Strings, Lists and Functions
 
 ## Guide (Please read!!!)
 
@@ -37,6 +37,8 @@ Output: !dlrow olleh'
 ### (★☆☆) 2. String Conversion
 
 Write a program that does the following:
+
+Hint: See `len(...)` function in Python.
 
 **Input:**
 
@@ -306,3 +308,140 @@ Output: 7 8 9
         4 5 6
         1 2 2
 ```
+
+### (★☆☆) 11. 4-mean
+
+Write a function that returns geometric mean of 4 numbers by:
+
+G.M. = (a * b * c * d) ^ 0.25
+
+**Template (copy and fill code)**
+```python
+# Your code begin
+def f(w, x, y, z):
+    ...
+# Your code end
+print(f(1, 3, 4, 5))
+```
+
+**Input:**
+
+1. None
+
+**Output:**
+
+1. G.M. of 4 numbers
+
+**Examples**
+
+```python
+Input:  -
+-----
+Output: 2.7831576837137404
+```
+
+### (★★☆) 12. Starry night: `*args`
+
+Variadic argument function is a function that can take indefinite 
+number of arguments. The function is not limited to taking only specified
+number of arguments in the function definition (`def`). In Python, we use
+`*args` in the argument to take any number of argument, then when we use it 
+in the function as a list named `args`.
+
+Write a function that takes any number of numbers as arguments and 
+output a sum of all numbers.
+
+Hint: See `sum(...)` function in Python.
+
+**Example of usages**
+```python
+# This function will print everything separated by comma ', '.
+def print_all(*args):
+    print(', '.join(args))
+    
+print_all('x', 'hello', 'sth')
+# Output will be: x, hello, sth
+```
+
+**Template (copy and fill code)**
+```python
+# Your code begin
+def f(*args):
+    ...
+# Your code end
+print(f(9, 8, 7, 6, 100))
+```
+
+**Input:**
+
+1. None
+
+**Output:**
+
+1. Sum of all numbers
+
+**Examples**
+
+```python
+Input:  -
+-----
+Output: 130
+```
+
+### (★★☆) 13. Keyword arguments
+
+In some builtin functions in Python, they support "keyword arguments." They are 
+usually used for options. See examples
+
+**Example of usages**
+```python
+# Try these:
+# print(...) in Python
+print('hello', 'world', 'everyone!', sep='_', end='k')
+print('hello', 'world', 'everyone!', sep=None, end='\nThe End La.')
+```
+
+This could be useful in the future when you work on I/O.
+
+### (★★☆) 14. Max and min
+
+Write a program that calculate the max and min of all numbers user input.
+
+Hint 1: See `max(...)` and `min(...)` functions in Python.
+<details>
+    <summary>Hint 2</summary>
+
+    Use a list to store user's inputs.
+</details>
+
+**Input:**
+
+1. An integer `n` specifying how many numbers will the user input.
+2. Next `n` lines: floating point numbers.
+
+**Output:**
+
+1. Maximum of all numbers
+2. Minimum of all numbers
+
+**Examples**
+
+```python
+Input:  4
+        1
+        -10
+        9.999
+        7.6
+-----
+Output: 9.999
+        -10
+```
+
+### (★★☆) 15. Difference between alphabets!
+
+Hint: See `ord(...)` function in Python.
+
+[//]: # (todo)
+
+### Other problems
+Please see Assignment 2...
