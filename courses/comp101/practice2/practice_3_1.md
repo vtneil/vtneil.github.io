@@ -1,4 +1,4 @@
-# Practice Problems for Week 2-3: Strings, Lists and Functions
+# Practice Problems for Week 2: Strings, Lists and Functions
 
 ## Guide (Please read!!!)
 
@@ -28,7 +28,7 @@ Write a program that print the reversed version of the string.
 
 **Examples**
 
-```python
+```text
 Input:  hello world!
 -----
 Output: !dlrow olleh'
@@ -54,7 +54,7 @@ Hint: See `len(...)` function in Python.
 
 **Examples**
 
-```python
+```text
 Input:  phoomkung
         3
 -----
@@ -80,7 +80,7 @@ the program must not raise an exception (no error when not found).
 
 **Examples**
 
-```python
+```text
 Input:  This is so exiting!
         is
 -----
@@ -106,7 +106,7 @@ the program must not raise an exception (no error when not found).
 
 **Examples**
 
-```python
+```text
 Input:  This is so exiting!
         is
 -----
@@ -143,7 +143,7 @@ e = [int(input()) for i in range(int(input()))]
 
 **Examples**
 
-```python
+```text
 Input:  4
         7
         6
@@ -162,6 +162,7 @@ Copy the template code below and read I/O instructions.
 **Do not use [::-1]**
 
 **Template (copy and fill code)**
+
 ```python
 # These are inputs
 e = [int(input()) for i in range(int(input()))]
@@ -182,7 +183,7 @@ e = [int(input()) for i in range(int(input()))]
 
 **Examples**
 
-```python
+```text
 Input:  4
         7
         6
@@ -197,6 +198,7 @@ Output: [9, 7, 6, 2]
 Write a program that remove en element of the list at index `i`.
 
 **Template (copy and fill code)**
+
 ```python
 # These are inputs
 e = [4, 9, 7, 4, 4, 4, 6, 2]
@@ -215,7 +217,7 @@ e = [4, 9, 7, 4, 4, 4, 6, 2]
 
 **Examples**
 
-```python
+```text
 Input:  3
 -----
 Output: [4, 9, 7, 4, 4, 6, 2]
@@ -238,7 +240,7 @@ Write a program that split an input `s` into a list. The string is split by spac
 
 **Examples**
 
-```python
+```text
 Input:  hello test test 1 2 3
 -----
 Output: ['hello', 'test', 'test', '1', '2', '3']
@@ -261,7 +263,7 @@ Then, join them by space but in reversed order.
 
 **Examples**
 
-```python
+```text
 Input:  hello test test 1 2 3
 -----
 Output: 3 2 1 test test hello
@@ -272,15 +274,16 @@ Output: 3 2 1 test test hello
 Write a program that sort the list of *k*-tuples.
 
 **Template (copy and fill code)**
+
 ```python
 # These are inputs
 n = int(input())
 e = [tuple([int(x) for x in input().split()]) for i in range(n)]
 
-# Your code begin here
+# Your code begin
 x = e
 # Use x as output list
-# Your code end here
+# Your code end
 
 for elem in x:
     print(*elem, sep=' ')
@@ -296,7 +299,7 @@ for elem in x:
 
 **Examples**
 
-```python
+```text
 Input:  4 5 6
         7 8 9
         1 2 2
@@ -316,11 +319,13 @@ Write a function that returns geometric mean of 4 numbers by:
 G.M. = (a * b * c * d) ^ 0.25
 
 **Template (copy and fill code)**
+
 ```python
 # Your code begin
 def f(w, x, y, z):
     ...
 # Your code end
+
 print(f(1, 3, 4, 5))
 ```
 
@@ -334,7 +339,7 @@ print(f(1, 3, 4, 5))
 
 **Examples**
 
-```python
+```text
 Input:  -
 -----
 Output: 2.7831576837137404
@@ -354,6 +359,7 @@ output a sum of all numbers.
 Hint: See `sum(...)` function in Python.
 
 **Example of usages**
+
 ```python
 # This function will print everything separated by comma ', '.
 def print_all(*args):
@@ -364,11 +370,13 @@ print_all('x', 'hello', 'sth')
 ```
 
 **Template (copy and fill code)**
+
 ```python
 # Your code begin
 def f(*args):
     ...
 # Your code end
+
 print(f(9, 8, 7, 6, 100))
 ```
 
@@ -382,7 +390,7 @@ print(f(9, 8, 7, 6, 100))
 
 **Examples**
 
-```python
+```text
 Input:  -
 -----
 Output: 130
@@ -394,6 +402,7 @@ In some builtin functions in Python, they support "keyword arguments." They are
 usually used for options. See examples
 
 **Example of usages**
+
 ```python
 # Try these:
 # print(...) in Python
@@ -426,7 +435,7 @@ Hint 1: See `max(...)` and `min(...)` functions in Python.
 
 **Examples**
 
-```python
+```text
 Input:  4
         1
         -10
@@ -439,9 +448,31 @@ Output: 9.999
 
 ### (★★☆) 15. Difference between alphabets!
 
-Hint: See `ord(...)` function in Python.
+The alphabets and any characters in computer have their encodings (numbers representing them).
+For example, difference between `'A'` and `'F'` is *5*. 
+Also, difference between `'a'` and `'A'` is *32*.
 
-[//]: # (todo)
+(See **ASCII Code** or **UTF-8 encoding** for more information.)
+
+Hint: See `ord(...)` function in Python and think of what to do with it.
+
+**Input:**
+
+1. First character `c1`
+2. Second character `c2`
+
+**Output:**
+
+1. Difference between `c1` and `c2` (`c2' - c1'`)
+
+**Examples**
+
+```text
+Input:  A
+        G
+-----
+Output: 6
+```
 
 ### Other problems
 Please see Assignment 2...

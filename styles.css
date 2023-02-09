@@ -46,11 +46,6 @@ h2::before {
     content: "• ";
 }
 
-p {
-    width: clamp(50%, 800px, 80%);
-    text-align: justify;
-}
-
 a {
     font-weight: 700;
     font-style: italic;
