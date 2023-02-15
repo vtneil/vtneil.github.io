@@ -1119,9 +1119,10 @@ The function should print:
 **Template (copy and fill code)**
 
 ```python
-# Your code begin
 x = [1, 2, 3]
 y = [8, 9, 0]
+
+# Your code begin
 
 def f(list1, list2):
     ...
