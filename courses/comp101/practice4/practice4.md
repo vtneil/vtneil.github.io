@@ -1242,3 +1242,125 @@ Input:  12
 -----
 Output: 12 6 3 10 5 16 8 4 2 1
 ```
+
+### (💀💀) 41. Insert Sorted
+
+Write a function that takes a list and an element *k* to be inserted as parameters. 
+The function will insert an element into the list without returning anything. 
+The order of list after insertion will be sorted in ascending order.
+
+**Explanation**
+```python
+list1 = []
+
+insert(list1, 5)  # list1 becomes [5]
+insert(list1, 9)  # list1 becomes [5, 9]
+insert(list1, 10)  # list1 becomes [5, 9, 10]
+insert(list1, 10)  # list1 becomes [5, 9, 10, 10]
+insert(list1, 2)  # list1 becomes [2, 5, 9, 10, 10]
+insert(list1, 3)  # list1 becomes [2, 3, 5, 9, 10, 10]
+```
+
+**Template (copy and fill code)**
+
+```python
+x = []
+
+# Your code begin
+
+def insert(list1, k):
+    ...
+
+# Your code end
+
+print(x)
+for e in [5, 9, 10, 10, 2, 3]:
+    f(x, e)
+    print(x)
+```
+
+**Input:**
+
+1. None
+
+**Output:**
+
+1. None
+
+**Examples**
+
+```text
+Input:  -
+-----
+Output: []
+        [5]
+        [5, 9]
+        [5, 9, 10]
+        [5, 9, 10, 10]
+        [2, 5, 9, 10, 10]
+        [2, 3, 5, 9, 10, 10]
+```
+
+### (💀) 42. Insert if not exist
+
+Write a function that takes a list and an element *k* to be inserted as parameters. 
+The function will insert an element into the list without returning anything. 
+If *k* already exists, in the list, the function should not do anything.
+
+In Python, you can use expression `x in y` to check if an 
+element `x` is in the collection `y` or not. This expression is either
+`True` or `False`.
+
+**Explanation**
+```python
+list1 = []
+
+insert(list1, 5)  # list1 becomes [5]
+insert(list1, 9)  # list1 becomes [5, 9]
+insert(list1, 10)  # list1 becomes [5, 9, 10]
+insert(list1, 10)  # list1 becomes [5, 9, 10]
+insert(list1, 2)  # list1 becomes [5, 9, 10, 2]
+insert(list1, 3)  # list1 becomes [5, 9, 10, 2, 3]
+insert(list1, 3)  # list1 becomes [5, 9, 10, 2, 3]
+```
+
+**Template (copy and fill code)**
+
+```python
+x = []
+
+# Your code begin
+
+def insert(list1, k):
+    ...
+
+# Your code end
+
+print(x)
+for e in [5, 9, 10, 10, 2, 3, 3]:
+    f(x, e)
+    print(x)
+```
+
+**Input:**
+
+1. None
+
+**Output:**
+
+1. None
+
+**Examples**
+
+```text
+Input:  -
+-----
+Output: []
+        [5]
+        [5, 9]
+        [5, 9, 10]
+        [5, 9, 10]
+        [5, 9, 10, 2]
+        [5, 9, 10, 2, 3]
+        [5, 9, 10, 2, 3]
+```

@@ -2,15 +2,16 @@
 
 ## About Assignment's Difficulty
 
-* This assignment's difficulty level is around 1 and 3 💀 (above average, do-able). 
+* This assignment's difficulty level is around 1 and 3 💀, and 2 😈 
+(above average, do-able). 
 
 * It will not be too hard for you to finish it in time and 
 not too easy that it is not challenging.
 
 * This assignment measures these concepts: range-based loop, nested loop.
 
-* This assignment has 3.5 tasks, each has different difficulty level. 
-I recommend you to do it in order of 1, 2, 3, 3.5.
+* This assignment has 4.5 tasks, each has different difficulty level. 
+I recommend you to do it in order of 1, 2, 3, 3.5, 4.
 
 ## Rules on Internet Searching for Fairness
 
@@ -38,7 +39,7 @@ is a 3 row by 4 column (3 x 4) matrix.
 
 **You can use WolframAlpha or matrix calculator to help testing your code.**
 
-## Task 1 (💀, 5 pts)
+## Task 1: Matrix Addition (💀, 5 pts)
 
 Write a function that adds 2 matrices (element-wise addition).
 
@@ -83,7 +84,7 @@ for row in C:
 18 -1 -22 12
 ```
 
-## Task 2 (💀💀, 10 pts)
+## Task 2: Matrix Transpose (💀💀, 10 pts)
 
 Write a function that transposes the matrix, you should know what transposing is.
 It is "flipping matrix by its diagonal" or "swapping row and column".
@@ -121,7 +122,7 @@ for row in B:
 4 8 12
 ```
 
-## Task 3 (💀💀💀, 15 pts)
+## Task 3: Matrix Multiplication (💀💀💀, 15 pts)
 
 Write a function that multiplies 2 matrices together.
 
@@ -164,7 +165,7 @@ for row in C:
 124 116 38
 ```
 
-## Task 3.5 (💀💀, 10 pts)
+## Task 3.5: Power of Matrix (💀💀, 10 pts)
 
 Write a function that multiplies the matrix *n* times.
 The operation is also called matrix exponentiation.
@@ -209,4 +210,48 @@ for row in B:
 -15593 19134 -6931 9020
 4018 -4967 1788 -2291
 3973 -4789 1637 -2187
+```
+
+## Task 4: Bubble Sort (😈😈, 10 pts)
+
+Write a function that sort the input list by method called "Bubble Sorting".
+
+**Bubble Sort** is the simplest sorting algorithm that works by repeatedly 
+swapping the adjacent elements if they are in the wrong order.
+
+You can watch the animation here: 
+<a href="https://www.youtube.com/watch?v=9I2oOAr2okY">Click here</a>.
+
+**DO NOT** use builtin `sorted(...)` or `.sort()` method.
+
+**The function should return the new sorted list without modifying the input list.**
+
+**Template (copy and fill code)**
+
+```python
+lst = [1, -2, -3, 4, 8, 9, 10, 15, 2, 1]
+        
+# Your code begin
+
+def sort(inp):
+    ...
+    
+# Your code end
+
+s = sort(lst)
+
+for e in lst:
+    print(e, end=' ')
+print('\n')
+
+for e in s:
+    print(e, end=' ')
+```
+
+**Examples of output when called the function**
+
+```text
+1 -2 -3 4 8 9 10 15 2 1
+
+-3 -2 1 1 2 4 8 9 10 15
 ```
