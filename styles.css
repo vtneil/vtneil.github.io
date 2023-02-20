@@ -46,6 +46,10 @@ h2::before {
     content: "• ";
 }
 
+samp {
+    font-size: 120%;
+}
+
 a {
     font-weight: 700;
     font-style: italic;
