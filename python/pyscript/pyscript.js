@@ -2667,7 +2667,7 @@ var pyscript = (function (exports) {
     const logger$9 = getLogger('pyscript/pyodide');
 
     class PyodideRuntime extends Runtime {
-        constructor(config, stdio, src = '/python/_pyscript/pyodide.js', name = 'pyodide-default', lang = 'python') {
+        constructor(config, stdio, src = '/python/pyscript/pyodide.js', name = 'pyodide-default', lang = 'python') {
             logger$9.info('Runtime config:', {name, lang, src});
             super(config);
             this.stdio = stdio;
