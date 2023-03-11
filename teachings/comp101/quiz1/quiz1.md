@@ -6,6 +6,7 @@ The quiz has maximum score of 100.
 * Part A: **30**
 * Part B: **50**
 * Part C: **80**
+* Special: **KOUEN** 1 meal
 
 The total score is calculated at maximum of 100 points:
 
