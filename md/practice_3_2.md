@@ -46,7 +46,7 @@ Write a program that output the absolute value of an input number
 
 Absolute value is defined by:
 
-<img src="files/absolute_value.svg" alt="Definition of Absolute Value">
+<img src="../teachings/comp101/practice3/files/absolute_value.svg" alt="Definition of Absolute Value">
 
 **Input:**
 

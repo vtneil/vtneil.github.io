@@ -31,7 +31,7 @@ Late assignments are not accepted. File submission will be announced later.
 
 1. The quiz is written in English.
 2. Internet searching is allowed.
-3. ChatGPT or AI-assisted program is **NOT allowed**.
+3. ChatGPT or AI-assisted program is **NOT allowed**. Don't try me because I know.
 4. Collaboration with your friends is allowed
 **but identical solutions will NOT be graded!**
 5. You are not allowed to ask or consult me during this period.
